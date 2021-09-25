@@ -1,67 +1,151 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Pet's Dog</title>  
-    <meta charset="utf-8">
-</head>
-<body>
-    <!--Header -->teste
-    <header>
-        <h1>Pet's Dog</h1><br>
-         
-          <!--Coloquei a nav dentro do header por achar os nomes dos "botões"
-            relevante nos motores de busca-->  
-      
-             <nav>
+
+    <head>
+        <title>Pet's Dog</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <!--Header -->
+        <header>
+            <h1>Pet's Dog</h1><br>
+
+            <!--Coloquei a nav dentro do header por achar os nomes dos "botões"
+                relevante nos motores de busca-->
+
+            <nav>
                 <ul>
-                    <td><a href="principal.html"> Home </a></td>| 
+                    <td><a href="principal.html"> Home </a></td>|
                     <td><a href="loja.html"> Loja </a></td> |
                     <td><a href="#"> Contato </a></td>
                 </ul>
             </nav>
-         </header>
-            <header>
-                <h2>Contato</h2>
-            </header>
-            <!--Campo Nome-->
-            <p>
-                <label for="name">Nome:</label><br>
-                <input type="text" id="name" name="name">
-            </p>
+        </header>
+        <form>
+            <fieldset>
 
-            <!--Campo E-mail-->
-            <p>
-                <label for="email">E-mail:</label><br>
-                <input type="email" id="email" name="email">
-            </p>
+                <!--Formulário de contato-->
+                <legend><b>Entre em contato conosco</b></legend>
 
-            <!--Campo Telefone-->
-            <p>
-                <label for="telefone">Telefone: </label><br>
-                <input type="tel" id="telefone" name="telefone">
-            </p>
+                <!--Campo Nome-->
+                <p>
+                    <label for="name">Nome:</label><br>
+                    <input type="text" id="name" name="name" placeholder="digite seu nome">
+                </p>
 
-            <!--Campo Mensagem-->
-            <p>
-                <label for="mensagem">Mensagem:</label><br>
-                <textarea id="mensagem" name="mensagem"></textarea>
-            </p>
+                <!--Campo E-mail-->
+                <p>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" placeholder="digite seu email">
+                </p>
 
-            <!--Botão Enviar e Limpar-->
-            <input type="button" id="bt_enviar" name="bt_enviar" value="Enviar">
-            <input type="button" id="bt_limpar" name="bt_limpar" value="Limpar">
+                <!--Campo Telefone-->
+                <p>
+                    <label for="telefone">Telefone: </label><br>
+                    <input type="tel" id="telefone" name="telefone" placeholder="digite seu telefone">
+                </p>
 
-            <br><br>      
+                <!--Campo Mensagem-->
+                <p>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" placeholder="digite sua mensagem aqui"></textarea>
+                </p>
 
-        <!--Informações de Contato-->
+                <!--Botão Enviar e Limpar-->
+                <input type="submit" id="bt_enviar" name="bt_enviar" value="Enviar">
+                <input type="reset" id="bt_limpar" name="bt_limpa" value="Limpar">
+            </fieldset>
+        </form>
+        <br>
+        <p>
+            Efetue o cadastro no formulário abaixo e receba <strong>Promoções Exclusivas !</strong>
+        </p>
+        
+        <!--Formulário de cadastro-->
+        <form>
+            <fieldset>
+                <legend><b>Cadastro</b></legend>
+                <fieldset>
+                    <legend>Dados do Cliente</legend>
+                    <!--Cadastro nome-->
+                    <p>
+                        <label for="name">Nome:</label><br>
+                        <input type="text" id="name" name="name" placeholder="digite seu nome">
+                    </p>
+            
+                    <!--Cadastro E-mail-->
+                    <p>
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" id="email" name="email" placeholder="digite seu email">
+                    </p>
+            
+                    <!--Cadastro Telefone-->
+                    <p>
+                        <label for="telefone">Telefone: </label><br>
+                        <input type="tel" id="telefone" name="telefone" placeholder="digite seu telefone">
+                                    
+                        <p>
+                            Marque como podemos entrar em contato com você:
+                        </p>
+                        
+                        <label for="whatsApp">WhatsApp</label>
+                        <input type="checkbox" id="whatsApp" name="whatsApp"> | 
+                
+                        <label for="telefone">Telefone</label>
+                        <input type="checkbox" id="telefone" name="telefone"> | 
+                                                    
+                        <label for="email">E-mail</label>
+                        <input type="checkbox" id="email" name="email">
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Dados do Pet</legend>
+                    <!--Cadastro nome do Pet-->
+                    <p>
+                        <label for="nomePet">Nome:</label><br>
+                        <input type="text" id="namePet" name="nomePet" placeholder="digite o nome do seu pet">
+                    </p>
+
+                    <!--Cadastro idade do Pet-->
+                    <p>
+                        <label for="idadePet">Idade:</label><br>
+                        <input type="text" id="idadePet" name="idadePet" placeholder="digite a idade do seu pet">
+                    </p>
+                    
+                    <!--Cadastro raça do Pet-->
+                    <p>
+                        <label for="racaPet">Raça:</label><br>
+                        <input type="text" id="racaPet" name="racaPet" placeholder="digite a idade do seu pet">
+                    </p>
+                    
+                    <label for="macho">Macho</label>
+                    <input type="radio" id="macho" name="sexoPet">
+            
+                    <label for="femea">Fêmea</label>
+                    <input type="radio" id="femea" name="sexoPet">
+                    
+                </fieldset>
+                <!--Botão Enviar e Limpar-->
+                <p>
+                    <input type="submit" id="bt_enviar" name="bt_enviar" value="Enviar">
+                    <input type="reset" id="bt_limpar" name="bt_limpa" value="Limpar">
+                </p>
+
+            </fieldset>
+        </form>
+
+                <!--Informações de Contato-->
         <footer>
             <address>
-                <p>Rua dos Cachorros, 123 - Vila Ema - São Paulo / SP</p>
+                <p>Rua dos Cachorros, nº 123 - Vila Ema - São Paulo - SP</p>
                 <P>WhatsApp: (11)98051-7425 | (11) 1111-2222 </P>
             </address>
         </footer>
         <p>&copy; Todos os direitos reservados </p>
+            
+        
+    </body>
 
-
-</body>
 </html>
