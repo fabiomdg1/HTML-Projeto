@@ -1,32 +1,36 @@
-Nome do Projeto
+## Nome do Projeto
+
 Pet's Dog
 
-DescriÁ„o
-Trata-se de um site construido utilizando apenas HTML5 e algumas tags sem‚nticas.
+## Descri√ß√£o
 
-Objetivo
+Trata-se de um site construido utilizando apenas HTML5 e algumas das tags sem√¢nticas.
+
+## Objetivo
 Utilizar apenas HTML sem o auxilio do CSS afim de fixar os conceitos aprendidos no curso.
 
-<header>
-<fieldset>
-<legend>
-<table>
-<figure>
-<img>
-<section>
-<aside>
-<select>
-<footer>
-<address>
-<nav>
-<article>
-<ul>
-<title>
-<label>
-<input>
-<textarea>
-<form>
-<h1>
-<h2>
-<h3>
-<strong>
+## Tags HTML utilizadas neste projeto
+
+- header
+- fieldset
+- legend
+- table
+- figure
+- img
+- section
+- aside
+- select
+- footer
+- address
+- nav
+- article
+- ul
+- title
+- label
+- input
+- textarea
+- form
+- h1
+- h2
+- h3
+- strong
