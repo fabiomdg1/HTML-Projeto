@@ -7,7 +7,8 @@ Pet's Dog
 Trata-se de um site construido utilizando apenas HTML5 e algumas das tags semânticas.
 
 ## Objetivo
-Utilizar apenas HTML sem o auxilio do CSS afim de fixar os conceitos aprendidos no curso.
+Desenvolver 03 páginas em HTML e utilizar o máximo possível das tags estudadas durante o cursto até este momento.
+Não utilizar CSS ou qualquer tipo de estilização.
 
 ## Tags HTML utilizadas neste projeto
 
